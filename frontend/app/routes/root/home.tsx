@@ -250,7 +250,30 @@ const Homepage = () => {
           </div>
         </div>
         <div className="container px-4 md:px-6 mx-auto mt-12 pt-8 border-t text-center text-sm text-muted-foreground">
-          © {new Date().getFullYear()} TaskFlow · Created by Abid Khan Azam.
+          © {new Date().getFullYear()} TaskFlow ·  <a
+            href="https://unipixer.com"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="
+    group inline-flex items-center gap-1
+    pb-4 text-sm font-medium
+    text-slate-500 transition-all duration-300
+    hover:text-slate-900
+  "
+          >
+            <span>Developed by</span>
+
+            <span className="relative font-semibold text-slate-700 group-hover:text-black">
+              Abid Azam Khan
+              <span className="absolute -bottom-0.5 left-0 h-px w-0 bg-slate-900 transition-all duration-300 group-hover:w-full" />
+            </span>
+
+            <span className="text-slate-400">· CEO of</span>
+
+            <span className="font-semibold text-indigo-600 transition-colors group-hover:text-indigo-700">
+              UNIPIXER
+            </span>
+          </a>
         </div>
       </footer>
     </div>
