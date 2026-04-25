@@ -251,7 +251,7 @@ const Homepage = () => {
         </div>
         <div className="container px-4 md:px-6 mx-auto mt-12 pt-8 border-t text-center text-sm text-muted-foreground">
 <p className="py-4 text-center text-xs md:text-sm">
-        © 2026 Gadgety. Developed By <span className="font-medium ">Abid Azam Khan</span> · CEO of <span className="font-medium">Unipixer</span>
+        © 2026 TaskFlow. Developed By <span className="font-medium ">Abid Azam Khan</span> · CEO of <span className="font-medium">Unipixer</span>
       </p>
         </div>
       </footer>
